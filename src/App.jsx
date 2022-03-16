@@ -8,7 +8,7 @@ function App() {
       <header>
         <Header />
       </header>
-      <main>
+      <main style={{ marginTop: "30px" }}>
         <Body />
       </main>
       <footer>
