@@ -16,12 +16,12 @@ export default function Body() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="building" element={<Building />}></Route>
-          <Route path="tag" element={<Tag />}></Route>
-          <Route path="mypage" element={<Mypage />}></Route>
+          <Route path="/building" element={<Building />}></Route>
+          <Route path="/tag" element={<Tag />}></Route>
+          <Route path="/mypage" element={<Mypage />}></Route>
           {/* <Route path="login" element={<Login />}></Route> */}
           {/* <Route path="signup" element={<Signup />}></Route> */}
-          <Route path="*" element={<Navigate to="/home" />}></Route>
+          <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
       </Router>
     </div>

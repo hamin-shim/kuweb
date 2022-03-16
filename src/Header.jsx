@@ -13,7 +13,7 @@ export default function Header() {
             <Nav.Link href="/building">Building</Nav.Link>
             <Nav.Link href="/tag">Tag</Nav.Link>
             <Nav.Link href="/mypage">My Page</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -22,8 +22,8 @@ export default function Header() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+              </NavDropdown.Item> */}
+            {/* </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
