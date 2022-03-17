@@ -1,11 +1,16 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import styled from "styled-components";
 
 export default function Header() {
   return (
     <Navbar collapseOnSelect bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">Logo</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <Logo>
+            <strong>KU</strong> place
+          </Logo>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -30,3 +35,6 @@ export default function Header() {
     </Navbar>
   );
 }
+const Logo = styled.span`
+  color: red;
+`;
